@@ -26,7 +26,7 @@ for item in all:
     except:
         print("Probably land estate")
 
-        try:
+    try:
         print(item.find("span",{"class","infoValueFullBath"}).find("b").text)
     except:
         print("Probably land estate")
